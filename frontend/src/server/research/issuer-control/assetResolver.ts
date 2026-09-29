@@ -120,20 +120,16 @@ export function resolveInspectorAsset(
       };
     }
 
-    if (
-      identity.type === "sep41_token" ||
-      identity.type === "contract" ||
-      identity.type === "deterministic_sac" ||
-      identity.type === "unsupported_contract"
-    ) {
+    if (identity.type === "sep41_token" || identity.type === "contract" || identity.type === "unsupported_contract") {
+      const contractId = identity.contractId;
       return {
         asset: {
           kind: "soroban_token",
           assetKey: identity.assetKey,
-          display: "contractId" in identity ? identity.contractId : identity.assetKey,
-          code: "symbol" in identity && typeof identity.symbol === "string" ? identity.symbol : null,
+          display: contractId,
+          code: identity.type === "sep41_token" ? identity.symbol : null,
           issuer: null,
-          contractId: "contractId" in identity ? identity.contractId : null,
+          contractId,
           network,
         },
         error: null,
