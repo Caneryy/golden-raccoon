@@ -58,7 +58,7 @@ describe("AccountSignersWorkbench", () => {
     );
     render(<AccountSignersWorkbench />);
     fireEvent.click(screen.getByRole("button", { name: "Inspect signer policy" }));
-    await waitFor(() => expect(screen.getByText("reachable")).toBeTruthy());
+    await waitFor(() => expect(screen.getByText(/^reachable$/)).toBeTruthy());
     expect(screen.getByLabelText("Account signers")).toBeTruthy();
     expect(screen.getByText(/does not prove key possession/i)).toBeTruthy();
   });
