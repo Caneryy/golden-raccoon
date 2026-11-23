@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "account": "GSPONSOR1",
+  "network": "stellar-testnet",
+  "state": "complete",
+  "numSponsoring": 2,
+  "numSponsored": 0,
+  "sponsorships": [
+    {
+      "sponsor": "GSPONSOR1",
+      "sponsored": "GSPONSORED1",
+      "entries": [
+        {
+          "id": "entry-1",
+          "type": "trustline",
+          "sponsor": "GSPONSOR1",
+          "sponsored": "GSPONSORED1",
+          "reserveAmount": "5000000"
+        },
+        {
+          "id": "entry-2",
+          "type": "offer",
+          "sponsor": "GSPONSOR1",
+          "sponsored": "GSPONSORED1",
+          "reserveAmount": "5000000"
+        }
+      ],
+      "totalReserve": "10000000"
+    }
+  ],
+  "revocationOutcomes": [],
+  "coverageNotice": "Complete coverage: 2 entries sponsored, 0 entries receiving sponsorship.",
+  "baseReserveSource": "protocol",
+  "readOnly": true
+}

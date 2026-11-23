@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "account": "GNOSPONSORS",
+  "network": "stellar-testnet",
+  "state": "complete",
+  "numSponsoring": 0,
+  "numSponsored": 0,
+  "sponsorships": [],
+  "revocationOutcomes": [],
+  "coverageNotice": "No sponsorships found for this account.",
+  "baseReserveSource": "protocol",
+  "readOnly": true
+}
