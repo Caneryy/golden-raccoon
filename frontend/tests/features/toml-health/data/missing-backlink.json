@@ -1,7 +1,0 @@
-{
-  "domain": "missing-backlink.example.com",
-  "toml": "VERSION=\"2.0.0\"\n[[CURRENCIES]]\ncode=\"USD\"\nissuer=\"GBQP2WXPJMQJ7L6Z5LZOMQNX46F7Q5FVLWT4FDJVVWQRFBF6GBF7XNXX\"",
-  "httpStatus": 200,
-  "contentType": "text/plain",
-  "backlinkMatches": false
-}
