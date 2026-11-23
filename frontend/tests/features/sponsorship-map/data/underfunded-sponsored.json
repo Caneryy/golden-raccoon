@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "account": "GUNDERFUNDED",
+  "network": "stellar-testnet",
+  "state": "complete",
+  "numSponsoring": 0,
+  "numSponsored": 2,
+  "sponsorships": [
+    {
+      "sponsor": "GSPONSOR1",
+      "sponsored": "GUNDERFUNDED",
+      "entries": [
+        {
+          "id": "entry-1",
+          "type": "trustline",
+          "sponsor": "GSPONSOR1",
+          "sponsored": "GUNDERFUNDED",
+          "reserveAmount": "5000000"
+        },
+        {
+          "id": "entry-2",
+          "type": "offer",
+          "sponsor": "GSPONSOR1",
+          "sponsored": "GUNDERFUNDED",
+          "reserveAmount": "5000000"
+        }
+      ],
+      "totalReserve": "10000000"
+    }
+  ],
+  "revocationOutcomes": [
+    {
+      "entryId": "entry-1",
+      "outcome": "underfunded",
+      "requiredBalance": "15000000",
+      "currentBalance": "5000000",
+      "explanation": "Account would fall below minimum balance if sponsorship is revoked."
+    },
+    {
+      "entryId": "entry-2",
+      "outcome": "critical",
+      "requiredBalance": "20000000",
+      "currentBalance": "0",
+      "explanation": "Account has zero balance and would fail immediately if sponsorship is revoked."
+    }
+  ],
+  "coverageNotice": "Complete coverage: 0 entries sponsored, 2 entries receiving sponsorship.",
+  "baseReserveSource": "protocol",
+  "readOnly": true
+}

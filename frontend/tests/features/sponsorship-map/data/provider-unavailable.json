@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "account": "GABC123",
+  "network": "stellar-testnet",
+  "state": "unavailable",
+  "numSponsoring": 0,
+  "numSponsored": 0,
+  "sponsorships": [],
+  "revocationOutcomes": [],
+  "coverageNotice": "Sponsorship map unavailable: Provider is currently unavailable.",
+  "baseReserveSource": "protocol",
+  "readOnly": true
+}
