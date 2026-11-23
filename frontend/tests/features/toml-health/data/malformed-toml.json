@@ -1,0 +1,6 @@
+{
+  "domain": "malformed.example.com",
+  "toml": "VERSION=\"2.0.0\nSIGNING_KEY=\"INVALID",
+  "httpStatus": 200,
+  "contentType": "text/plain"
+}

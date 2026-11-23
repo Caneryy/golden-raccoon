@@ -1,0 +1,7 @@
+{
+  "domain": "dead-endpoints.example.com",
+  "toml": "VERSION=\"2.0.0\"\nWEB_AUTH_ENDPOINT=\"https://dead.example.com/auth\"\nTRANSFER_SERVER=\"https://dead.example.com/transfer\"",
+  "httpStatus": 200,
+  "contentType": "text/plain",
+  "endpointsReachable": false
+}

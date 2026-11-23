@@ -1,0 +1,7 @@
+{
+  "domain": "stellar.example.com",
+  "toml": "VERSION=\"2.0.0\"\nNETWORK_PASSPHRASE=\"Public Global Stellar Network ; September 2015\"\nFEDERATION_SERVER=\"https://api.stellar.example.com/federation\"\nWEB_AUTH_ENDPOINT=\"https://api.stellar.example.com/auth\"\nSIGNING_KEY=\"GBQP2WXPJMQJ7L6Z5LZOMQNX46F7Q5FVLWT4FDJVVWQRFBF6GBF7XNXX\"",
+  "httpStatus": 200,
+  "contentType": "text/plain",
+  "corsHeaders": ["access-control-allow-origin: *"]
+}
